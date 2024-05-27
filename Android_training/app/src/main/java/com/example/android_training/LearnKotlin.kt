@@ -6,9 +6,7 @@ import kotlin.text.StringBuilder
 var content: String? = "hello"
 
 fun main() {
-    val array = intArrayOf(1,2,3)
-    val good = Solution()
-    print(good.plusOne(array))
+    println("Hello Kotlin" beginsWith "Hello")
 }
 
 fun getRandomLengthString(str: String) = str * (1..20).random()
